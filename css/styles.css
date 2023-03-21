@@ -158,8 +158,7 @@ button {
 
 .header > .container {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  align-items: center;  
 }
 
 .site-nav {
@@ -172,9 +171,13 @@ button {
   align-items: center;
 }
 
+.address {
+  margin-left: auto;
+}
+
 .address-list {
   display: flex;
-  align-items: center;
+  align-items: center;  
 }
 
 .header-logo {
@@ -185,7 +188,7 @@ button {
   margin-right: 40px;
 }
 
-.address-item:first-child {
+.address-item:not(:last-child) {
   margin-right: 40px;
 }
 
@@ -355,13 +358,6 @@ button {
 
 /**========== Customers ==========*/
 
-
-
-
-
-
-
-
 /**========== Footer ==========*/
 
 .footer {
@@ -440,7 +436,8 @@ button {
   color: var(--accent-btns-portfolio-txt-cl);
   background-color: var(--accent-btns-bgd-cl);
 
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-subtitle {
