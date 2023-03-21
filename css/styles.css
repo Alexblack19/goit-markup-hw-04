@@ -248,7 +248,20 @@ button {
   padding-bottom: 188px;
 
   background-color: var(--header-bgd-cl);
+  background-image: url('../images/dark-bg.png'), url('../images/people-office.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
+
+
+
+
+
+
+
+
+
 
 .hero-title {
   margin-bottom: 48px;
@@ -449,7 +462,7 @@ button {
 }
 
 .portfolio-cards > .item {
-  flex-basis: calc((100% - 48px) / 3);
+  flex-basis: calc((100% - 48px) / 3);  
 
   background-color: var(--cards-bgd-cl);
 }
