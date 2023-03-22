@@ -17,7 +17,7 @@
 
   /** Background colors */
   --page-bgd-cl: #ffffff;
-  --header-bgd-cl: #2e2f42;
+  --hero-bgd-cl: #2e2f42;
   --team-bgd-cl: #f4f4fd;
   --footer-bgd-cl: #2e2f42;
 
@@ -247,12 +247,14 @@ button {
   padding-top: 188px;
   padding-bottom: 188px;
 
-  background-color: var(--header-bgd-cl);
-  background-image: url('../images/dark-bg.png'), url('../images/people-office.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-color: var(--hero-bgd-cl);
+  
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7)), url('../images/people-office.jpg');
+  /* background-repeat: no-repeat;
+  background-position: center; */
 }
+
+
 
 
 
@@ -308,8 +310,20 @@ button {
 }
 
 .feature-item {
-  width: 264px;
+  width: 264px;  
 }
+
+.feature-item::before {
+  display: inline-block;
+  background-color: aquamarine;
+}
+
+
+
+
+
+
+
 
 .feature-subtitle {
   margin-bottom: 8px;
