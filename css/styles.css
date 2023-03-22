@@ -311,9 +311,24 @@ button {
 }
 
 .feature-item::before {
-  display: inline-block;
-  background-color: aquamarine;
+  display: block;
+  margin-bottom: 8px;  
+  content: "";
+  height: 112px;
+  border-radius: 4px;
+  /* background-size: 70px;   */
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  background-color: violet;   
 }
+
+
+
+
+
+
+
 
 .feature-subtitle {
   margin-bottom: 8px;
