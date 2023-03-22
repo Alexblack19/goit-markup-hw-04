@@ -170,7 +170,11 @@ button {
 .address-list {
   display: flex;
   align-items: center;
-  gap: 40px;
+}
+
+.nav-item:not(:last-child),
+.address-item:not(:last-child) {
+  margin-right: 40px;
 }
 
 .address {
