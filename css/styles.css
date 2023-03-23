@@ -308,7 +308,6 @@ button {
 
 .feature-list {
   display: flex;
-  /* justify-content: space-between; */
   gap: 24px;
 }
 
