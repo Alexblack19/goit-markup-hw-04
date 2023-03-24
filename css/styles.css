@@ -37,7 +37,7 @@
   /** Header line color */
   --header-line-cl: #e7e9fc;
 
-  /** Portfolio cards */
+  /** Cards */
   --cards-bgd-cl: #ffffff;
   --portfolio-cards-border-cl: #e7e9fc;
 }
@@ -256,7 +256,7 @@ button {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url('../images/people-office.jpg');
+    url("../images/hero/people-office.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -317,9 +317,9 @@ button {
 
 .feature-item::before {
   display: block;
-  margin-bottom: 8px;  
   content: "";
   height: 112px;
+  margin-bottom: 8px;      
   border-radius: 4px;
   /* background-size: 70px;   */
   background-repeat: no-repeat;
