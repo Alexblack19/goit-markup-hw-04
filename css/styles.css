@@ -40,7 +40,12 @@
   /** Cards */
   --cards-bgd-cl: #ffffff;
   --portfolio-cards-border-cl: #e7e9fc;
+
+  /** Icons color */
+--feature-icons-bgd: #F4F4FD;
 }
+
+
 
 .page {
   font-family: var(--primary-font);
@@ -325,7 +330,8 @@ button {
   background-repeat: no-repeat;
   background-position: center;
   
-  background-color: violet;   
+  background-color: var(--feature-icons-bgd); 
+    
 }
 
 
