@@ -261,8 +261,7 @@ button {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url("../images/hero/people-office.jpg");
-  background-repeat: no-repeat;
+    url("../images/hero/people-office.jpg");  
   background-size: cover;
   background-position: center;
 }
@@ -320,33 +319,10 @@ button {
   flex-basis: calc((100% - 72px) / 4);
 }
 
-.feature-item::before {
-  display: block;
-  content: "";
+/* .feature-icon {
+  display: flex;
   height: 112px;
-  margin-bottom: 8px;      
-  border-radius: 4px;
-  background-size: 64px;
-  background-repeat: no-repeat;
-  background-position: center;  
-  
-  background-color: var(--feature-icons-bgd);     
-}
-
-/* .icon-antenna::before {  
-  background-image: url(../images/icons/antenna.svg);
-}
-
-.icon-clock::before {
-  background-image: url(..//images/icons/clock.svg);
-}
-
-.icon-diagram::before {
-  background-image: url(../images/icons/diagram.svg);
-}
-
-.icon-astronaut::before {
-  background-image: url(../images/icons/astronaut.svg);
+  border-color: var(--feature-icons-bgd);
 } */
 
 
