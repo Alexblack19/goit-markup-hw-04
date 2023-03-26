@@ -43,6 +43,8 @@
 
   /** Icons color */
 --feature-icons-bgd: #F4F4FD;
+--social-links-cl: #F4F4FD; 
+--social-links-bgd: #4D5AE5;
 }
 
 
@@ -319,16 +321,18 @@ button {
   flex-basis: calc((100% - 72px) / 4);
 }
 
-/* .feature-icon {
+.feature-icon {
   display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 8px;
   height: 112px;
-  border-color: var(--feature-icons-bgd);
-} */
 
+  background-color: var(--feature-icons-bgd);
 
-
-
-
+  border-radius: 4px;  
+}
 
 .feature-subtitle {
   margin-bottom: 8px;
@@ -375,7 +379,7 @@ button {
 }
 
 .team-txt-card {
-  padding: 32px 0px;
+  padding: 32px 0px;  
 }
 
 .team-subtitle {
@@ -385,8 +389,44 @@ button {
 }
 
 .team-text {
-  text-align: center;
+  margin-bottom: 8px;
+
+  text-align: center;  
 }
+
+
+
+
+
+.social-list {
+  display: flex;  
+  justify-content: center;
+  gap: 24px;
+}
+
+.social-link {
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  /* display: inline-block; */
+  width: 40px;
+  height: 40px;
+
+  background-color: var(--social-links-bgd);
+
+  border-radius: 50%;
+}
+
+.social-link :hover {
+  background-color: rgb(48, 206, 80);
+}
+
+
+
+
+
+
+
 
 /**========== Customers ==========*/
 
