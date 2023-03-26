@@ -47,8 +47,6 @@
 --social-links-bgd: #4D5AE5;
 }
 
-
-
 .page {
   font-family: var(--primary-font);
 
@@ -408,15 +406,11 @@ button {
   align-items: center;    
   width: 40px;
   height: 40px;
-
-  background-color: var(--social-links-bgd);
+  
+  background-color: var(--social-links-bgd);  
   
   border-radius: 50%;
 }
-
-/* .social-link :hover {
-  background-color: rgb(48, 206, 80);
-} */
 
 
 
