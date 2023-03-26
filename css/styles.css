@@ -45,6 +45,11 @@
 --feature-icons-bgd: #F4F4FD;
 --social-links-cl: #F4F4FD; 
 --social-links-bgd: #4D5AE5;
+--social-links-accent-bgd: #404BBF;
+--customers-links-cl: #8E8F99;
+--customers-links-accent-cl: #404BBF;
+--customers-border-links-cl: #8E8F99;
+--customers-border-links-accent-cl: #404BBF;
 }
 
 .page {
@@ -319,6 +324,11 @@ button {
   flex-basis: calc((100% - 72px) / 4);
 }
 
+.feature .icon {
+  width: 64px;
+  height: 64px;
+}
+
 .feature-icon {
   display: flex;
   justify-content: center;
@@ -412,31 +422,48 @@ button {
   border-radius: 50%;
 }
 
-.social-list .icon {
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--social-links-accent-bgd);
+}
+
+.team .icon {
   width: 16px;
   height: 16px;
   fill: var(--social-links-cl);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**========== Customers ==========*/
+
+.customers-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.customers-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 168px;
+  height: 88px;
+
+  border: 1px solid var(--customers-border-links-cl);
+  border-radius: 4px;
+
+  fill: var(--customers-links-cl);
+}
+
+.customers-link:hover,
+.customers-link:focus {
+  border: 1px solid var(--customers-border-links-accent-cl);  
+  fill: var(--customers-links-accent-cl);
+}
+
+.client-logo {
+  width: 104px;
+  height: 56px;  
+}
 
 /**========== Footer ==========*/
 
