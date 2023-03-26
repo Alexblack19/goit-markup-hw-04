@@ -326,15 +326,28 @@ button {
   height: 112px;
   margin-bottom: 8px;      
   border-radius: 4px;
-  /* background-size: 70px;   */
+  background-size: 64px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center;  
   
-  background-color: var(--feature-icons-bgd); 
-    
+  background-color: var(--feature-icons-bgd);     
 }
 
+/* .icon-antenna::before {  
+  background-image: url(../images/icons/antenna.svg);
+}
 
+.icon-clock::before {
+  background-image: url(..//images/icons/clock.svg);
+}
+
+.icon-diagram::before {
+  background-image: url(../images/icons/diagram.svg);
+}
+
+.icon-astronaut::before {
+  background-image: url(../images/icons/astronaut.svg);
+} */
 
 
 
