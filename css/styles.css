@@ -412,7 +412,11 @@ button {
   border-radius: 50%;
 }
 
-
+.social-list .icon {
+  width: 16px;
+  height: 16px;
+  fill: var(--social-links-cl);
+}
 
 
 
