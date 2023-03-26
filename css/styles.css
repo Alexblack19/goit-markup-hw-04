@@ -394,9 +394,7 @@ button {
   text-align: center;  
 }
 
-
-
-
+/**========== Our team (social) ==========*/
 
 .social-list {
   display: flex;  
@@ -407,19 +405,31 @@ button {
 .social-link {
   display: flex;  
   justify-content: center;
-  align-items: center;
-  /* display: inline-block; */
+  align-items: center;    
   width: 40px;
   height: 40px;
 
   background-color: var(--social-links-bgd);
-
+  
   border-radius: 50%;
 }
 
-.social-link :hover {
+/* .social-link :hover {
   background-color: rgb(48, 206, 80);
-}
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
