@@ -51,6 +51,7 @@
 --customers-links-accent-cl: #404BBF;
 --customers-border-links-cl: #8E8F99;
 --customers-border-links-accent-cl: #404BBF;
+--social-links-accent-footer-bgd: #31D0AA;
 }
 
 .page {
@@ -441,11 +442,15 @@ button {
   gap: 24px;
 }
 
+.customers-item {
+  flex-basis: calc((100% - 120px) / 6);
+}
+
 .customers-link {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 168px;
+  width: 100%;
   height: 88px;
 
   border: 1px solid var(--customers-border-links-cl);
@@ -542,7 +547,7 @@ color: var(--footer-social-txt-cl);
 
 .footer-social-link:hover,
 .footer-social-link:focus {
-  background-color: var(--social-links-accent-bgd);
+  background-color: var(--social-links-accent-footer-bgd);
 
 }
 
@@ -593,6 +598,7 @@ color: var(--footer-social-txt-cl);
 .portfolio-btn:focus {
   color: var(--accent-btns-portfolio-txt-cl);
   background-color: var(--accent-btns-bgd-cl);
+  border-color: var(--accent-btns-bgd-cl);
 
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
