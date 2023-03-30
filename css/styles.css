@@ -336,6 +336,8 @@ button {
   align-items: center;
 
   margin-bottom: 8px;
+
+  width: 100%;
   height: 112px;
 
   background-color: var(--feature-icons-bgd);
@@ -405,6 +407,11 @@ button {
 
 /**========== Our team (social) ==========*/
 
+.team-social-item {
+  width: 40px;
+  height: 40px;
+}
+
 .team-social-list {
   display: flex;
   justify-content: center;
@@ -415,9 +422,10 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
+  width: 100%;
+  height: 100%;
 
+  color: var(--social-links-cl);
   background-color: var(--social-links-bgd);
 
   border-radius: 50%;
@@ -431,7 +439,8 @@ button {
 .team .icon {
   width: 16px;
   height: 16px;
-  fill: var(--social-links-cl);
+
+  fill: currentColor;
 }
 
 /**========== Customers ==========*/
@@ -444,6 +453,7 @@ button {
 
 .customers-item {
   flex-basis: calc((100% - 120px) / 6);
+  height: 88px;
 }
 
 .customers-link {
@@ -451,7 +461,7 @@ button {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 88px;
+  height: 100%;
 
   border: 1px solid var(--customers-border-links-cl);
   border-radius: 4px;
@@ -535,13 +545,19 @@ button {
   gap: 16px;
 }
 
+.footer-social-item {
+  width: 40px;
+  height: 40px;
+}
+
 .footer-social-link {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
+  width: 100%;
+  height: 100%;
 
+  color: var(--social-links-cl);
   background-color: var(--social-links-bgd);
 
   border-radius: 50%;
@@ -555,7 +571,8 @@ button {
 .footer .icon {
   width: 24px;
   height: 24px;
-  fill: var(--social-links-cl);
+
+  fill: currentColor;
 }
 
 /**========== Portfolio ==========*/
